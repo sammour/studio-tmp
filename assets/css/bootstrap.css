@@ -1117,6 +1117,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
 .img-rounded {
   border-radius: 6px;
 }
@@ -1177,7 +1181,7 @@ h6,
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
- 
+
 }
 h1 small,
 h2 small,
@@ -1568,7 +1572,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  
+
 }
 @media (min-width: 768px) {
   .container {
